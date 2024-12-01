@@ -16,7 +16,7 @@ To implement the core gameplay mechanics of the classic game Flappy Bird. This i
 1. *Controls:*
    * Press the spacebar to make the bird jump.
    * Time your jumps carefully to pass through gaps between the pipes.
-2. *Objective:*
+2. *Goals:*
    * Keep the bird flying as long as possible.
    * Avoid hitting the pipes or falling to the ground.
 3. *Game Over:*
