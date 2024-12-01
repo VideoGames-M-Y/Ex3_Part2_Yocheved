@@ -1,8 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Movement : MonoBehaviour
-{
+public class Movement : MonoBehaviour{
     public Rigidbody2D myRigidbody2D; 
     [SerializeField] private InputAction moveUp = new InputAction(type: InputActionType.Button);
     [SerializeField] private float jumpForce = 5f;
@@ -16,8 +15,7 @@ public class Movement : MonoBehaviour
     }
 
     void Update(){
-        if (moveUp.WasPressedThisFrame())
-        {
+        if (moveUp.WasPressedThisFrame()){
             myRigidbody2D.linearVelocity = new Vector2(myRigidbody2D.linearVelocity.x, jumpForce);
         }
     }
